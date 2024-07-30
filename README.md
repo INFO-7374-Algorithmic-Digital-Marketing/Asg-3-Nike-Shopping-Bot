@@ -74,12 +74,15 @@ streamlit run app.py
 Open the provided URL in your web browser to access the application.
 
 ## Tools and Technologies
+
 [![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 [![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://streamlit.io/)
 [![CLIP](https://img.shields.io/badge/CLIP-FF4B4B?style=for-the-badge&logo=openai&logoColor=white)](https://beta.openai.com/docs/)
 [![Pinecone](https://img.shields.io/badge/Pinecone-FF4B4B?style=for-the-badge&logo=pinecone&logoColor=white)](https://www.pinecone.io/docs/)
 [![Google Cloud Storage](https://img.shields.io/badge/Google%20Cloud%20Storage-FF4B4B?style=for-the-badge&logo=google-cloud&logoColor=white)](https://cloud.google.com/storage/docs)
 [![Azure Cognitive Services](https://img.shields.io/badge/Azure%20Cognitive%20Services-FF4B4B?style=for-the-badge&logo=microsoft-azure&logoColor=white)](https://docs.microsoft.com/en-us/azure/cognitive-services/)
+[![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/)
 
 ## Data Sources
 Data collected from the following sources:
