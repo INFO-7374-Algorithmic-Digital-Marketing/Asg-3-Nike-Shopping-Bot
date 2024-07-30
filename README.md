@@ -6,11 +6,13 @@ Welcome to the Nike Product Search Bot! This application helps you search for Ni
 
 TODO : Deploy the application on GCP and add the link here to the streamlit and Fastapi application
 [Add link to live application if available]
+[![Live Application](https://img.shields.io/badge/codelabs-4285F4?style=for-the-badge&logo=codelabs&logoColor=white)](https://codelabs-preview.appspot.com/?file_id=1r6Cg_miHqOiVv43CM6GhOtq1ZWK9lf6mIlYW7VNuSVk)
 
 ## Video Demo
 
 TODO : Make youtube channel and upload video and add the link here to the unlisted video
 [Add link to video demo if available]
+[![Video Demo](https://img.shields.io/badge/codelabs-4285F4?style=for-the-badge&logo=codelabs&logoColor=white)](https://codelabs-preview.appspot.com/?file_id=1r6Cg_miHqOiVv43CM6GhOtq1ZWK9lf6mIlYW7VNuSVk)
 
 ## Documentation
 
