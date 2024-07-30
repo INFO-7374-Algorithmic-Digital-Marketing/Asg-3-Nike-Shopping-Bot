@@ -5,14 +5,12 @@ Welcome to the Nike Product Search Bot! This application helps you search for Ni
 ## Live Application
 
 TODO : Deploy the application on GCP and add the link here to the streamlit and Fastapi application
-[Add link to live application if available]
-[![Live Application](https://img.shields.io/badge/codelabs-4285F4?style=for-the-badge&logo=codelabs&logoColor=white)](https://codelabs-preview.appspot.com/?file_id=1r6Cg_miHqOiVv43CM6GhOtq1ZWK9lf6mIlYW7VNuSVk)
+[![Live Application](https://img.shields.io/badge/Live%20Application-<COLOR>?style=for-the-badge&logo=<LOGO>&logoColor=white)](<LINK>)
 
 ## Video Demo
 
 TODO : Make youtube channel and upload video and add the link here to the unlisted video
-[Add link to video demo if available]
-[![Video Demo](https://img.shields.io/badge/codelabs-4285F4?style=for-the-badge&logo=codelabs&logoColor=white)](https://codelabs-preview.appspot.com/?file_id=1r6Cg_miHqOiVv43CM6GhOtq1ZWK9lf6mIlYW7VNuSVk)
+[![Video Demo](https://img.shields.io/badge/Video%20Demo-<COLOR>?style=for-the-badge&logo=<LOGO>&logoColor=white)](<LINK>)
 
 ## Documentation
 
@@ -58,6 +56,20 @@ GOOGLE_APPLICATION_CREDENTIALS=gcloud_creds_json_file
 azure_cv_key=azure_cv_key
 azure_cv_endpoint=azure_cv_endpoint
 ```
+
+## Data Scraping and Embedding Pipeline
+
+To collect data and create embeddings for the Nike Product Search Bot, you can follow the steps below:
+
+1. Run the `01_scrapper.py` script to scrape data from the Nike website and save it as a CSV file.
+
+2. Upload the CSV file to an S3 bucket using the `02_upload_to_s3.py` script. Make sure you have the necessary AWS credentials configured.
+
+3. Use the `03_pinecone_storing_data.py` script to create a Pinecone index and upload the embeddings to Pinecone. This will allow you to perform efficient similarity searches on the data.
+
+By following this pipeline, you can ensure that the Nike Product Search Bot has up-to-date data and accurate embeddings for product search and virtual try-on functionalities.
+
+Remember to customize the scripts according to your specific requirements and configurations.
 
 ## Usage
 

@@ -6,6 +6,9 @@ __pycache__/
 # C extensions
 *.so
 
+# Google Cloud Key
+excellent-shard*
+
 # Distribution / packaging
 .Python
 build/
